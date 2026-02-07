@@ -9,7 +9,7 @@ int main() {
     int length;
 
     printf("Enter word to encrypt: ");
-    scanf("%19s", secret_word);
+    scanf("%19s", secret_sentence);
 
     // 1. Дізнаємось довжину слова (наприклад, "halo" = 4)
     length = strlen(secret_word);
