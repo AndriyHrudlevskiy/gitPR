@@ -8,7 +8,8 @@ int main() {
     // strlen рахує скільки букв у слові (щоб не бігти по порожніх клітинках)
     int length;
 
-    printf("1984: ");
+    printf("Enter word to UA: ");
+
     scanf("%19s", secret_sentence);
 
     // 1. Дізнаємось довжину слова (наприклад, "halo" = 4)
