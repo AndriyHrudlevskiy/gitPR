@@ -8,7 +8,7 @@ int main() {
     // strlen рахує скільки букв у слові (щоб не бігти по порожніх клітинках)
     int length;
 
-    printf("Enter word to encrypt: ");
+    printf("1984: ");
     scanf("%19s", secret_sentence);
 
     // 1. Дізнаємось довжину слова (наприклад, "halo" = 4)
