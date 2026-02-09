@@ -3,7 +3,7 @@
 #include <string.h> // Потрібно для strlen (довжина рядка)
 
 int main() {
-    char secret_word[20];
+    char secret_patik[20];
     int i;
     // strlen рахує скільки букв у слові (щоб не бігти по порожніх клітинках)
     int length;
